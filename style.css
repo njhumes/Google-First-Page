@@ -1,0 +1,113 @@
+header {
+  padding-left: 8px;
+  padding-top: 20px;
+  background-color: #FAFAFA;
+  padding-bottom: 60px;
+  border-bottom: solid 1px #EBEBEB;
+  width: 100%;
+}
+.logo {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+.logo img {
+  height: 60px;
+}
+nav {
+  display: inline;
+  position: absolute;
+  top: 90px;
+  left: 5px;
+  width: 100%;
+}
+.nav_left, .nav_right {
+  display: inline;
+  position: relative;
+}
+.nav_left {
+  left: 210px;
+}
+.nav_right {
+  left: 340px;
+}
+.nav_left a, .nav_right a{
+  font-family: arial, serif;
+  font-size: 13px;
+  color: #777;
+  padding: 14px;
+  text-decoration: none;
+}
+.searchbar {
+  width: 640px;
+  height: 30px;
+  display: inline;
+  position: relative;
+  left: 200px;
+  top: 1px;
+  font-family: arial, serif;
+  font-size: 14px;
+}
+.login {
+  font-family: arial, serif;
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  right: 20px;
+  top: 15px;
+  border: solid 2px #4285f4;
+  padding: 10px;
+  background-color: #4285f4;
+}
+.first_result {
+  border: solid 1px gray;
+  padding: 10px;
+  margin: 20px;
+  width: 600px;
+  position: relative;
+  left: 200px;
+  font-family: arial, serif;
+}
+ul {
+  list-style-type: none;
+  width: 600px;
+  height: 90px;
+  position: relative;
+  left: 200px;
+  font-family: arial, serif;
+  display: block;
+}
+li a {
+  font-size: 18px;
+  padding-top: 10px;
+  padding-bottom: 0;
+  color: #1a0dab;
+  text-decoration: none;
+  line-height: 0;
+}
+.url {
+  font-size: 14px;
+  color: #006621;
+  line-height: 0;
+}
+.description {
+  color: #545454;
+  margin: 0px;
+}
+ul li {
+  padding-top: 5px;
+  padding-bottom: 30px;
+}
+p {
+  margin-top: 8px;
+  margin-bottom: 10px;
+}
+.pages {
+  position: relative;
+  top: 825px;
+  left: 400px;
+  padding-bottom: 20px;
+}
+.pages img {
+  width: 330px;
+}
